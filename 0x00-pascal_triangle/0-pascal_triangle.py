@@ -22,3 +22,4 @@ def pascal_triangle(n):
             else:
                 arr[i].append(arr[i - 1][p - 1] + arr[i - 1][p])
     return arr
+    
