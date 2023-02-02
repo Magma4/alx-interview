@@ -1,6 +1,13 @@
 #!/usr/bin/python3
+"""
+Returns n number of locked boxes in front
+"""
+
 
 def canUnlockAll(boxes):
+    """
+    This function determines if you can open all the lockboxes
+    """
     unlocked = set()
 
     for box_id, box in enumerate(boxes):
