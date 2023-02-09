@@ -7,8 +7,7 @@ A method that calculates the fewest number of operations needed to result in exa
 def minOperations(n):
     """
     Prototype: def minOperations(n)
-    Returns an integer
-    If n is impossible to achieve, return 0
+    Returns an integer If n is impossible to achieve, return 0
     """
     operations = 0
     min_operations = 2
